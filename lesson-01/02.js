@@ -6,3 +6,6 @@ if (number1 % 2 === 0) {
     console.log(number1 + ' :Это нечетное число ');
 }
 
+
+
+
