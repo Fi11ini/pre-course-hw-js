@@ -1,4 +1,6 @@
-let iAm = 'я';
-let krasavchik = 'красавчик!';
+let iAm = "я";
+let krasavchik = "красавчик!";
 
-console.log(iAm.toUpperCase() + ' ' + krasavchik);
+console.log(iAm.toUpperCase() + " " + krasavchik);
+
+// test git
