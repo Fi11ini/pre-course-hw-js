@@ -2,8 +2,14 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
-console.log(passport)
 
-passport.name = 'Ivan';
+let passport2 = {};
 
-console.log(passport)
+for (let key in passport) {
+    passport2[key] = passport[key];
+}
+passport2.name = 'Ivan'
+
+console.log(passport.name);
+console.log(passport2.name)
+
