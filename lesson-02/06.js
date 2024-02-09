@@ -7,8 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let passportWithAddress2 = structuredClone(passportWithAddress)
-passportWithAddress.address.city = 'Bobryisk'
-
-console.log(passportWithAddress)
-console.log(passportWithAddress2)
+let passportWithAddress2 = JSON.parse(JSON.stringify(passportWithAddress));
+passportWithAddress2.address.city = 'Bobryisk';
+console.log(passportWithAddress);
+console.log(passportWithAddress2);
