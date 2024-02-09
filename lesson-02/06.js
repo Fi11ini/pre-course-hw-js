@@ -11,3 +11,4 @@ let passportWithAddress2 = structuredClone(passportWithAddress)
 passportWithAddress2.address.city = 'Bobryisk'
 
 console.log(passportWithAddress2)
+console.log(passportWithAddress)
