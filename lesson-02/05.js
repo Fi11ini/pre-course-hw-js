@@ -4,7 +4,6 @@ let passport = {
 };
 console.log(passport)
 
-let passport2 = passport;
-passport2.name = 'Ivan';
+passport.name = 'Ivan';
 
-console.log(passport2)
+console.log(passport)
